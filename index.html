@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calculator</title>
+	<link href="styles.css" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<img src="logo.svg" width="100" height="75">
+		<div class="row">
+			<input type="checkbox" id="switch" class="checkbox" checked onchange="darkMode()" />
+			<label for="switch" class="toggle"></label>
+			<span>Dark Mode</span>
+		</div>
+		<div class="calculator-grid">
+			<div class="output">
+				<input type="text" id="output" readonly="readonly" />
+			</div>
+			<button id="clear" onclick="getNum()">AC</button>
+			<button id="←" onclick="getNum()">←</button>
+			<button id="." onclick="getNum()">.</button>
+			<button id="add" onclick="getNum()">+</button>
+			<button id="1" onclick="getNum()">1</button>
+			<button id="2" onclick="getNum()">2</button>
+			<button id="3" onclick="getNum()">3</button>
+			<button id="subtract" onclick="getNum()">-</button>
+			<button id="4" onclick="getNum()">4</button>
+			<button id="5" onclick="getNum()">5</button>
+			<button id="6" onclick="getNum()">6</button>
+			<button id="multiply" onclick="getNum()">×</button>
+			<button id="7" onclick="getNum()">7</button>
+			<button id="8" onclick="getNum()">8</button>
+			<button id="9" onclick="getNum()">9</button>
+			<button id="divide" onclick="getNum()">÷</button>
+			<button id="0" onclick="getNum()">0</button>
+			<button id="(" onclick="getNum()">(</button>
+			<button id=")" onclick="getNum()">)</button>
+			<button id="equal" onclick="getNum()">=</button>
+
+		</div>
+	</div>
+</body>
+
+</html>
