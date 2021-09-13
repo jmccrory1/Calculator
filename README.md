@@ -1,5 +1,5 @@
-- Calculator - Julia McCrory
-- 
+Calculator - Julia McCrory
+
 <img width="1439" alt="calc" src="https://user-images.githubusercontent.com/54955291/133163379-4e299261-01e1-4e25-b52e-570e323c0ae7.png">
 
 To Run:
