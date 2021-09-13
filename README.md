@@ -1,4 +1,6 @@
-VidMob Engineering Take Home Exercise - Calculator - Julia McCrory
+- Calculator - Julia McCrory
+- 
+<img width="1439" alt="calc" src="https://user-images.githubusercontent.com/54955291/133163379-4e299261-01e1-4e25-b52e-570e323c0ae7.png">
 
 To Run:
     Download all files and open project in Visual Studio Code. In the files list, on the left hand side, hover over the index.html file. Right click and "View in Browser".
@@ -23,10 +25,6 @@ UI/UX Details:
         - contrast
         - text size
     Night Mode
-    Styling as Found on VidMob.com
-        - font
-        - colors
-        - logo
 
 Future Implementations:
     - Ability to input using keyboard, in which an error would display if improper inputs are entered
