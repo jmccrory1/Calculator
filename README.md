@@ -6,7 +6,7 @@ To Run:
     Download all files and open project in Visual Studio Code. In the files list, on the left hand side, hover over the index.html file. Right click and "View in Browser".
     
 Description: 
-    This is a simple calulator that uses JavaScript, HTML, and CSS.
+    This is a simple calculator that uses JavaScript, HTML, and CSS.
 
 Main Features:
     +, - , * , / for all integers
